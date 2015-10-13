@@ -7,3 +7,9 @@ $ npm install
 $ weback --watch
 $ open dist/index.html
 ```
+
+## Tests
+
+```shell
+$ npm test
+```
