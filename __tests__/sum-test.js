@@ -1,6 +1,6 @@
-jest.dontMock('../app/sum')
+jest.dontMock('../app/components/sum')
 
-const sum = require('../app/sum')
+const sum = require('../app/components/sum')
 
 describe('sum', () => {
  it('adds 1 + 2 to equal 3', () => {

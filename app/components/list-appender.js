@@ -14,7 +14,7 @@ export default React.createClass({
   },
   render() {
     return (
-      <div>
+      <div className="list-appender">
         <button className="button-add" onClick={this.addOne}>{this.props.label}</button>
         <button className="button-clear" onClick={this.clear}>Clear</button>
         <ul>

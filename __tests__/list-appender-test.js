@@ -1,9 +1,9 @@
-jest.dontMock('../app/list-appender')
+jest.dontMock('../app/components/list-appender')
 
 var React = require('react')
 var ReactTestUtils = require('react-addons-test-utils')
 
-const ListAppender = require('../app/list-appender')
+const ListAppender = require('../app/components/list-appender')
 const listElements = (el) => ReactTestUtils.scryRenderedDOMComponentsWithTag(el, 'li')
 const add = (el, count) => {
   for (var i = 0; i < count; i++) {
